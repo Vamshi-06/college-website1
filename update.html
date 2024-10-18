@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Update page</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="banner-section">
+        <img src="../static/images/banner.jpg" alt="">
+    </div>
+    <div class="update-header">
+        <h1>Updation Page</h1>
+    </div>
+    <div class="update-section">
+        <form action="/update-form" method="post">
+            <input type="number" name="id" placeholder="Enter ID"><br>
+            <select name="field">
+                <option value="" disabled selected>select field</option>
+                <option value="name">NAME</option>
+                <option value="email">EMAIL</option>
+                <option value="phone">PHONE</option>
+                <option value="percentage">INTER PERCENTAGE</option>
+                <option value="rank">EAMCET RANK</option>
+                <option value="course">COURSE INTERESTED</option>
+                <option value="address">ADDRESS</option>
+            </select><br>
+            <input type="text" name="new_value" placeholder="Enter NEW DATA"><br>
+            <input type="submit" value="UPDATE">
+        </form>
+    </div>
+    <div class="copy-section">
+        <h1>Copyright © 2022 || All Rights Reserved ||</h1>
+    </div>
+</body>
+</html>
